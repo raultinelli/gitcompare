@@ -71,22 +71,25 @@ export const Repository = styled.div `
             i {
                 margin-right: 3px;
             }
-        &:nth-child(2n) {
-            border: 1px solid #c11927;
-            color: #c11927;
-            &:hover {
-            background: #aa1622;
-            color: #fff;
+            &:nth-child(2n) {
+                border: 1px solid #c11927;
+                color: #c11927;
+                &:hover {
+                background: #aa1622;
+                color: #fff;
+                }
+            }
+            &:nth-child(2n - 1) {
+                border: 1px solid #116088;
+                color: #116088;
+                
+                &:hover {
+                background: #0e5071;
+                color: #fff;
+                }
             }
         }
-        &:nth-child(2n - 1) {
-            border: 1px solid #116088;
-            color: #116088;
-            &:hover {
-            background: #0e5071;
-            color: #fff;
-            }
-        }
+
     }
 
 `;
