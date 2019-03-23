@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## View the project 
+
+[Git Compare](https://focused-curie-8e48e3.netlify.com).
+
 ## Available Scripts
 
 In the project directory, you can run:
